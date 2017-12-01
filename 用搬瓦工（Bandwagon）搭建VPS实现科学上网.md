@@ -17,7 +17,7 @@
     - KVM、$25.99 USD包年、USCA_2
     - 可以几个人合买哦，因为配置完之后理论上是没有使用人数限制的，只不过就像宽带一样，人多了速度自然就会慢了
 
-1.1 登录[搬瓦工](https://bwh1.net/index.php)网址
+1.1 访问[搬瓦工](https://bwh1.net/index.php)网址
 ![2017-12-01-13-49-45.jpg](http://upload-images.jianshu.io/upload_images/152050-448ccca37257ccf6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 1.2 选择套餐，加入购物车：
@@ -37,6 +37,7 @@
 
 购买成功后，邮箱收到三封邮件，里面有重要信息（SSH port、VPS IP、root 临时密码）需要记录。之后有用。
 以上VPS的购买完成，下面进入配置。
+
 ### 2. 配置VPS
 2.1 返回home，进入client area，找到service，`my services`,进入`KiwiVM`控制面板
 ![2017-12-01-13-55-19.jpg](http://upload-images.jianshu.io/upload_images/152050-20cd309768f31124.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -56,19 +57,21 @@
 	- Shadowsocks serve(Shadowsocks服务)
 	- ShadowsocksR serve(ShadowsocksR服务)
 
-1) 首先，可以修改用户名，这个就是个人喜好的问题，可以不改，之后配置没什么用。（ ~~但如果你用 putty 的话，这个就是登陆的名字，由于这个教程面向我这种小白用户，所以这段话可以忽略~~）
+首先，可以修改用户名，这个就是个人喜好的问题，可以不改，之后配置没什么用。（ ~~但如果你用 putty 的话，这个就是登陆的名字，由于这个教程面向我这种小白用户，所以这段话可以忽略~~）
 ![2017-12-01-14-29-50.jpg](http://upload-images.jianshu.io/upload_images/152050-3119906b81068f92.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-2) 重装系统。
-这里本来是默认装了CentOS的系统，但是清洁起见还是重装一下。
+
+重装服务器系统。这里本来是默认装了CentOS的系统，但是清洁起见还是重装一下。
 Main controls面板，单击Stop，然后Install new OS 这里，选择 CentOS-6-x86_64-bbr，勾选 I agree， 点击 Reload。然后看密码，或者修改。
 
 	• Root password modification 这个是装系统之后，搬瓦工随机分配的密码，自己不能修改，`记录这里的信息`（邮箱里也会收到） 
 	• KiwiVM password modification 是登陆账号的密码，直接写新密码。这样的话最开始邮件收到的密码就可以不用了。从这步开始购买VPS时的邮件内容就不用了。
-3）安装 ShadowsocksR Server和Shadowsocks serve
+
+安装 ShadowsocksR Server和Shadowsocks serve
 本来可以只安装一个ShadowsocksR Server，但是后来测试必须要把Shadowsocks serve也安装上才能正确上网所以这里我们一步到位。另外这里建议使用ShadowsocksR，因为安全。
 两个服务都是自动安装，自动装好之后记录显示的消息，用客户端FQ就`靠这些信息`了。
 ![2017-12-01-14-43-52.jpg](http://upload-images.jianshu.io/upload_images/152050-4411d763294d3c54.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 以上VPS配置工作就完成了，只要在终端登录就可以实现科学上网了
+
 ### 3. 配置终端
 客户端下载，点击关键词即可下载。
 - PC
@@ -87,11 +90,11 @@ Main controls面板，单击Stop，然后Install new OS 这里，选择 CentOS-6
 1. 以win为例：
 把ShadowsocksR Server的信息填到客户端，完成单击确定即可。
 ![2017-12-01-14-58-39.jpg](http://upload-images.jianshu.io/upload_images/152050-82f31cec772d6186.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 2. 以IOS客户端Wing为例：
 把ShadowsocksR Server的信息填到客户端，完成单击确定即可。
 ![2017-12-01-15-03-56.jpg](http://upload-images.jianshu.io/upload_images/152050-06845dd196adc0e7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-.
 
 测试网页：
 [Google](www.google.com.hk/?hl=zh-cn)
