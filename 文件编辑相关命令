@@ -1,0 +1,6 @@
+head -1 /etc/a.txt      #查看a.txt文件中前1行文件内容
+tail -5 /etc/a.txt      #查看a.txt文件中后5行文件内容
+
+touch	a.txt   #创建文件a.txt文件
+
+vi
