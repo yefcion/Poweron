@@ -12,11 +12,14 @@ ls      #列出当前目录有哪些文件（目录）
     -l  长格式列出文件属性
     -d  查看目录本身
     -a  查看所有文件（隐藏）
-cat /ect/a.txt      #查看a.txt文件内容
+cat /etc/a.txt      #查看a.txt文件内容
     more    #分页查看
 
 cp /etc/arv /tmp        #将etc目录下的arv目录复制到tmp目录下
-
+mv      #移动或重命名
+    mv /etc/a.txt /etc/b.txt    #将a.txt文件重命名为b.txt
+    mv /etc/a.txt /etc/a    #将a.txt移动到a文件夹
+    
 find  -name    
   -name #查找etc目录下名称中含root的文件
   /etc -name '*root*'
