@@ -66,9 +66,13 @@ Main controls面板，单击Stop，然后Install new OS 这里，选择 CentOS-6
 	• Root password modification 这个是装系统之后，搬瓦工随机分配的密码，自己不能修改，`记录这里的信息`（邮箱里也会收到） 
 	• KiwiVM password modification 是登陆账号的密码，直接写新密码。这样的话最开始邮件收到的密码就可以不用了。从这步开始购买VPS时的邮件内容就不用了。
 
+常理的话控制面板应该如下，有ShadowsocksR Server和Shadowsocks serve，但是新装的服务器好像没了，因此要手动安装
+![mark](http://pb8ci5khn.bkt.clouddn.com/blog/20181201/wMC1ERhfiqAm.png)
+
 安装 ShadowsocksR Server和Shadowsocks serve
-本来可以只安装一个ShadowsocksR Server，但是后来测试必须要把Shadowsocks serve也安装上才能正确上网所以这里我们一步到位。另外这里建议使用ShadowsocksR，因为安全。
-两个服务都是自动安装，自动装好之后记录显示的消息，用客户端FQ就`靠这些信息`了。
+直接点击[链接](https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocks)，快速啊安装shadowsocks服务
+安装完成之后记录当前界面显示的消息，用客户端FQ就`靠这些信息`了。（另，保存该网址为书签，不知为什么安装shadowsocks后KiviVM面板上没有添加shadowsocks的菜单，所以为了以后方便查看，把这个网址保存书签把）
+IP是首页'Main statistic'中的 'IP address'
 ![2017-12-01-14-43-52.jpg](http://upload-images.jianshu.io/upload_images/152050-4411d763294d3c54.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 以上VPS配置工作就完成了，只要在终端登录就可以实现科学上网了
 
