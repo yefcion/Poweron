@@ -1,6 +1,6 @@
 @echo off
  
-::获取对应路径下文件名，
-DIR "E:\GitHub_clone" /B >文件目录.txt
+::鑾峰彇瀵瑰簲璺緞涓嬫枃浠跺悕
+DIR "E:\GitHub_clone" /B >dirPathList.txt
  
 ::pause
