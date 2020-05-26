@@ -46,3 +46,49 @@ Winget 下载地址：
 官方 Github：https://github.com/microsoft/winget-cli/releases
 
 搬运地址：https://www.jianguoyun.com/p/Dd8JlckQn7KEBxjXx5sD 
+
+
+
+## Powershell 修改主题
+
+首先安装 `oh-my-posh`
+
+```powershell
+Install-Module -Name oh-my-posh
+```
+
+然后参考这个开源项目的介绍 https://gitee.com/yefcion/oh-my-posh
+
+安装 `posh-git` 和 `oh-my-posh`
+
+```powershell
+Install-Module posh-git -Scope CurrentUser
+Install-Module oh-my-posh -Scope CurrentUser
+```
+
+（非必要）如果要编辑 PowerShell 配置文件，输入如下命令：
+
+```powershell
+if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
+notepad $PROFILE
+```
+
+将以下行追加到 PowerShell 配置文件中：
+
+```powershell
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-Theme Paradox
+```
+
+
+
+之后就可以设置主题了
+
+
+
+```powershell
+# 查看当前设置
+$ThemeSettings
+```
+
