@@ -1,5 +1,5 @@
 echo Gitee
 git push gitee master
 echo   
-echo Github
+echo GitHub
 git push github master
