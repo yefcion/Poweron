@@ -1,6 +1,8 @@
 # Poweron
 一些实用小技巧
 
+![]( https://visitor-badge.glitch.me/badge?page_id=<p34w56e14r48t4454gfd4g610gd45gt131f3s1fdg246541>) 
+
 - python小程序
 - Linux小知识
 - bat命令行等
