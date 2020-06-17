@@ -1,8 +1,8 @@
 # Poweron
 
-![license](https://img.shields.io/github/license/yefcion/Poweron)
-![visit_count]( https://visitor-badge.glitch.me/badge?page_id=<p34w56e14r48t4454gfd4g610gd45gt131f3s1fdg246541>) 
-![commit_date](https://img.shields.io/github/last-commit/yefcion/Poweron)
+[![license](https://img.shields.io/github/license/yefcion/Poweron)](./LICENSE)
+![last-commit](https://img.shields.io/github/last-commit/yefcion/Poweron?label=update)
+![visitor_count](https://visitor-badge.glitch.me/badge?page_id=<pow45465161321sf484982sd156f4s3212s1f8ews4f231fsd5fe4wf58w>)
 
 一些实用小技巧
 
