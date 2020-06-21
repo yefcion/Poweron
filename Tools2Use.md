@@ -68,4 +68,4 @@ update 2020.05.12
 
 
 
-![工具使用图](https://raw.githubusercontent.com/yefcion/PicData/master/img/20200108000558.png)
+![工具使用图](https://cdn.jsdelivr.net/gh/yefcion/PicData@master/img/20200108000558.png)
